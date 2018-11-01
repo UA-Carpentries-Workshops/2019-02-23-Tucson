@@ -48,6 +48,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="general">General Information</h2>
 
+<p>
+<br><center><strong><h3>The workshop is taking place during the world's largest annual
+	<a href="http://www.tgms.org/show/" target="blank">Gem & Mineral Show</a> in Tucson, AZ.</h3><br>
+<h3>Come to learn the basic tools to handle and mine data, then stay to check out the show!</h3></strong></center><br>
+</p>
 <p><h4><center><strong>Apply for the workshop at <a href="https://XXXXXXXXXXXXXX" target='blank'>Coming soon</a>.</strong></center></h4></p>
 
 {% comment %}
@@ -63,12 +68,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% elsif page.carpentry == "lc" %}
   {% include lc/intro.html %}
 {% endif %}
-
-<p>
-<br><center><strong>The workshop is taking place during the annual
-  <a href="http://www.tgms.org/show/" target="blank">Gem & Mineral Show</a> in Tucson, AZ.<br>
-<h3>Come to learn the basic tools to handle and mine data, then stay to check out the show!</h3></strong></center><br>
-</p>
 
 {% comment %}
   AUDIENCE
