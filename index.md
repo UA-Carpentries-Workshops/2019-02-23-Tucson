@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "University of Arizona, Tucson"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Learn Data Mining Skills at the University of Arizona!"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Please check your email for the workshop location!"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -46,11 +46,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
-
 <h2 id="general">General Information</h2>
 
 <p><h4><center><strong>Apply for the workshop at <a href="https://XXXXXXXXXXXXXX" target='blank'>Coming soon</a>.</strong></center></h4></p>
@@ -68,6 +63,12 @@ and our administrator may contact you if we need any extra information.</h4>
 {% elsif page.carpentry == "lc" %}
   {% include lc/intro.html %}
 {% endif %}
+
+<p>
+<br><center><strong>The workshop is taking place during the annual
+  <a href="http://www.tgms.org/show/" target="blank">Gem & Mineral Show</a> in Tucson, AZ.<br>
+<h3>Come to learn the basic tools to handle and mine data, then stay to check out the show!</h3></strong></center><br>
+</p>
 
 {% comment %}
   AUDIENCE
