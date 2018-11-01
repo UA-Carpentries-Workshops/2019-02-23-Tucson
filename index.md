@@ -634,5 +634,3 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
-{% endcomment %}
