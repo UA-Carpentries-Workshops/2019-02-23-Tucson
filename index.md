@@ -286,7 +286,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
+<!-- <h2 id="syllabus">Syllabus</h2> -->
 
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
@@ -295,6 +295,82 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
+
+<hr/>
+
+<h2 id="syllabus">Syllabus & Learning Objectives</h2>
+
+<div class="row">
+  <div class="col-md-6">
+	  <h3 id="syllabus-shell">Take control with the Bash Shell (Command Line/Shell/Unix)</h3>
+    <ul>
+	    <li>Work <em>in</em> vs. work <em>below</em> the GUI</li>
+	    <li>Navigate the shell</li>
+	    <li><code>Find</code>, create, copy, move and delete folders and files</li>
+	    <li>Shell over GUI: Command history and tab completion</li>
+	    <li>Connect commands into workflows: pipes and redirection</li>
+	    <li>Automate repetitive tasks: loops</li>
+	    <li>Save and run workflows in scripts</li>
+	  </ul>
+	  <u>Resources:</u>
+	  <ul>
+		  <li><a href="{{site.swc_pages}}/shell-novice">Shell Lessons</a></li>
+		  <li><a href="{{site.swc_pages}}/shell-novice/reference.html">Shell Quick Reference</a></li>
+		  <li><a href="http://explainshell.com/" target="_blank"><em>Explain Shell</em> (Parses shell commands and shows docs about the command)</a></li>
+		  <li><a href="http://www.shellcheck.net/" target="_blank"><em>ShellCheck</em> (Identifies bugs in shell scripts)</a></li>
+		  <li><a href="http://man.he.net/" target="_blank"><em>Linux Man Pages Online</em> (Same content as command line man/help pages)</a></li>
+	  </ul>
+  </div>
+
+  <div class="col-md-6">
+	  <h3 id="syllabus-git">Collaborate with git/GitHub</h3>
+    <ul>
+	    <li>Access a repository and pull files</li>
+	    <li>Create a repository</li>
+	    <li>Record changes: <code>add</code>, <code>commit</code>, ...</li>
+	    <li>View changes: <code>status</code>, <code>diff</code>, ...</li>
+	    <li>Ignore files</li>
+	    <li>Work on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+	    <li>Resolve conflicts</li>
+	  </ul>
+	  <u>Resources:</u>
+	  <ul>
+		  <li><a href="{{site.swc_pages}}/git-novice">Git Lessons</a></li>
+		  <li><a href="{{site.swc_pages}}/git-novice/reference/">Git Quick Reference</a></li>
+		  <li><a href="https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash" target="_blank"><i>Mac/Linux:</i> Integrating Git into your shell prompt</a></li>
+		  <li><a href="https://github.com/magicmonty/bash-git-prompt" target="_blank">An informative and fancy bash prompt for Git users</a></li>
+		  <li><a href="https://education.github.com/pack" target="_blank">Unlimited <em>private</em> repositories for free on Github, <i>while you are a student</i></a></li>
+		  <li><a href="https://git-annex.branchable.com/" target="_blank">Git for Archiving Data</a></li>
+	  </ul>
+  </div>
+
+<div class="col-md-6">
+    <h3 id="syllabus-python">Analyse scientific data with Python</h3>
+    <ul>
+      <li>Use libraries</li>
+      <li>Work with arrays</li>
+      <li>Read and plot data</li>
+      <li>Create and use functions</li>
+      <li>Use loops and conditionals</li>
+      <li>Use Python from the command line</li>
+      <li>Defensive programming</li>
+    </ul>
+	  <u>Resources:</u>
+	  <ul>
+		  <li><a href="{{site.swc_pages}}/python-novice-gapminder">Python Lessons</a></li>
+		  <li><a href="{{site.swc_pages}}/python-novice-gapminder/reference/">Python Quick Reference</a></li>
+                  <li><a href="https://www.codecademy.com/learn/python" target="_blank">Codecademy: Interactive Python practice lessons</a></li>
+		  <li><a href="http://rosalind.info/problems/list-view/?location=python-village" target="_blank">Rosalind Python Bioinformatics Practice</a></li>
+		  <li><a href="https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook#gs.mz7KeNQ" target="_blank">Jupyter Notebook tutorial</a></li>
+		  <li><a href="https://plot.ly/python/" target="_blank">Interactive plotting with Plotly (available for R and for Python)</a></li>
+
+
+    </ul>
+  </div>
+</div>
+  
+<p>Syllabus subject to change if necessary.</p>
+
 
 <hr/>
 
@@ -328,15 +404,14 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>
 <em>Should you encounter issues</em> while installing the software below, please look for a solution in our
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-If even this does not help, please get in touch with us at <a href='mailto:{{email}}'>{{email}}</a> and we will attempt to provide a solution.
+If even this does not help, please get in touch with us at the contact email listed above and we will attempt to provide a solution.
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
 
   <p>
-    Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
+    Bash is a commonly-used shell environment that gives you the power to quickly do simple tasks on your computer. Bash stands for 'Bourne Again Shell'; if you are interested in the history of the term and the underlying technological development, please search the Web for 'Bash Shell'.
   </p>
 
   <div class="row">
@@ -365,7 +440,8 @@ If even this does not help, please get in touch with us at <a href='mailto:{{ema
                 If this happens rerun the installer and select the appropriate option.
             </li>
             {% comment %} Choosing the SSH executable {% endcomment %}
-            <li>Click on "Next".</li>
+                <li>Keep "Use the OpenSSL Library" selected and click on "Next".
+            </li>
             {% comment %} Configuring the line ending conversions {% endcomment %}
             <li>
                 Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
@@ -377,6 +453,9 @@ If even this does not help, please get in touch with us at <a href='mailto:{{ema
               </strong>
             </li>
             {% comment %} Configuring experimental performance tweaks {% endcomment %}
+             <li>
+                 Keep "Enable file system caching" and "Enable Git Credential Manager" selected and click on "Next". 
+            </li>
             <li>Click on "Install".</li>
             {% comment %} Installing {% endcomment %}
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
@@ -422,6 +501,86 @@ If even this does not help, please get in touch with us at <a href='mailto:{{ema
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
+
+<div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
+  <h3>Text Editor</h3>
+
+  <p>
+Writing code is much easier with respectively optimized text editors that include features such as automatic color-coding of key words and syntax-highlighting. We will use the basic editor '<strong>nano</strong>' in the workshop; it comes pre-installed with the git-bash download above for Windows, Mac and Linux.
+  </p>
+
+<div class="row">
+    <div class="col-md-4">
+      <h4 id="editor-windows">Windows</h4>
+<p>
+	Click the Start button and type 'git bash' into the search window.<br> 
+	Click on the "Git Bash" icon to open the shell.<br>
+	Type 'nano test.txt' to open a text editor. <strong>IF this does not open the nano text editor contact the workshop administrator at the email listed above.</strong><br>
+	Type 'Test'.<br>
+	To exit the nano editor press Ctrl and type 'x' (a.k.a. '^X'; additional commands are listed at the bottom of the text edito window.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="editor-macosx">macOS</h4>
+      <p>
+        During the workshop we will be using the basic editor nano. nano should be pre-installed; see the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a> for an example on how to open nano.        
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="editor-linux">Linux</h4>
+      <p>
+        During the workshop we will be using the basic editor nano. nano should be pre-installed
+      </p>
+</div>
+</div>
+</div> {% comment %} End of 'editor' section. {% endcomment %}
+
+<!--  <div class="row">
+    <div class="col-md-4">
+      <h4 id="editor-windows">Windows</h4>
+      <p>
+        nano is a basic editor and the default that instructors use in the workshop.
+        It is installed along with Git.
+      </p>
+      <p>
+        Others editors that you can use are
+        <a href="https://notepad-plus-plus.org/">Notepad++</a> or
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.
+        <strong>Be aware that you must
+          add its installation directory to your system path.</strong>
+        Please ask your instructor to help you do this.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="editor-macosx">macOS</h4>
+      <p>
+        nano is a basic editor and the default that instructors use in the workshop.
+        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
+        for an example on how to open nano.
+        It should be pre-installed.
+      </p>
+      <p>
+        Others editors that you can use are
+        <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="editor-linux">Linux</h4>
+      <p>
+        nano is a basic editor and the default that instructors use in the workshop.
+        It should be pre-installed.
+      </p>
+      <p>
+        Others editors that you can use are
+        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
+        <a href="https://kate-editor.org/">Kate</a> or
+        <a href="https://www.sublimetext.com/">Sublime Text</a>.
+      </p>
+    </div>
+  </div>
+</div> {% comment %} End of 'editor' section. {% endcomment %}
+-->
 
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
@@ -481,65 +640,6 @@ If even this does not help, please get in touch with us at <a href='mailto:{{ema
     </div>
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
-
-<div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
-  <h3>Text Editor</h3>
-
-  <p>
-    When you're writing code, it's nice to have a text editor that is
-    optimized for writing code, with features like automatic
-    color-coding of key words.  The default text editor on macOS and
-    Linux is usually set to Vim, which is not famous for being
-    intuitive.  If you accidentally find yourself stuck in it, try
-    typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-    exclamation mark), then hitting Return to return to the shell.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="editor-windows">Windows</h4>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        It is installed along with Git.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://notepad-plus-plus.org/">Notepad++</a> or
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
-        <strong>Be aware that you must
-          add its installation directory to your system path.</strong>
-        Please ask your instructor to help you do this.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="editor-macosx">macOS</h4>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open nano.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="editor-linux">Linux</h4>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="https://kate-editor.org/">Kate</a> or
-        <a href="https://www.sublimetext.com/">Sublime Text</a>.
-      </p>
-    </div>
-  </div>
-</div> {% comment %} End of 'editor' section. {% endcomment %}
 
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
