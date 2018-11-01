@@ -475,7 +475,7 @@ If even this does not help, please get in touch with us at the contact email lis
           </ol>
         </li>
       </ol>
-      <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+      <p>This will provide you with both Bash and Git in the Git Bash program.</p>
     </div>
     <div class="col-md-4">
       <h4 id="shell-macosx">macOS</h4>
@@ -680,4 +680,10 @@ Writing code is much easier with respectively optimized text editors that includ
   which has instructions on how to test that everything was installed correctly.
   </p>
 {% endcomment %}
+
+  <p>
+  Once you are done installing the software listed above,
+  please go to <a href="setup/index.html">this page</a>,
+  which has instructions on how to test that everything was installed correctly.
+  </p>
 </div> {% comment %} End of 'Python' section. {% endcomment %}
