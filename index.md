@@ -52,7 +52,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <br><center><strong><h3>The workshop is taking place during the world's largest annual <a href="http://www.tgms.org/show/" target="blank">Gem & Mineral Show</a> in Tucson, AZ.</h3>
 <h3>Come to learn the basic tools to handle and mine data, then stay to check out the show!</h3></strong></center><br>
 </p>
-<p><h4><center><strong>Apply for the workshop at <a href="https://XXXXXXXXXXXXXX" target='blank'>Coming soon</a>.</strong></center></h4><br> </p>
+<p><h4><center><strong>Apply for the workshop at <a href="https://XXXXXXXXXXXXXX" target='blank'>Application URL coming soon</a>.</strong></center></h4><br> </p>
 
 {% comment %}
   INTRODUCTION
@@ -218,7 +218,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Saturday February 10</h3>
+    <h3>Saturday February 9</h3>
     <table class="table table-striped">
       <tr> <td>08:30</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Access and navigate the command line / Bash Shell</a></td> </tr>
       <tr> <td>10:30</td> <td>Break</td> </tr>
@@ -231,7 +231,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Sunday February 11</h3>
+    <h3>Sunday February 10</h3>
     <table class="table table-striped">
       <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Analyze scientific data with Python </a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
       <tr> <td>10:30</td>  <td>Break</td> </tr>
@@ -310,7 +310,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Prepare Your Computer</h2>
 
 <p>
   To participate in a
@@ -322,13 +322,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  you will need access to the software described below. Unless you prepare your laptop as described below you will be unable to follow along.
+  In addition, you will need an up-to-date web browser, we recommend Firefox, Chrome or Safari as Internet Explorer/Edge can be buggy.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
+<em>Should you encounter issues</em> while installing the software below, please look for a solution in our
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+If even this does not help, please get in touch with us at <a href='mailto:{{email}}'>{{email}}</a> and we will attempt to provide a solution.
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
