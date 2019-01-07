@@ -167,7 +167,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
-  <strong>Contact</strong>:
+  <strong>Workshop Administrator</strong>:
   Please email
   {% if page.email %}
     {% for email in page.email %}
