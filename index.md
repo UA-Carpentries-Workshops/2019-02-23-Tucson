@@ -435,7 +435,7 @@ If even this does not help, please get in touch with us at the contact email lis
             </li>
             {% comment %} Adjusting your PATH environment {% endcomment %}
             <li>
-                Ensure "Git from the command line and also from 3rd-party software" is selected and click on "Next".
+                Ensure "Use Git from Git Bash only" is selected and click on "Next".
                 If you forget to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
             </li>
