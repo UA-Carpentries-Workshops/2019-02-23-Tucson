@@ -429,9 +429,7 @@ If even this does not help, please get in touch with us at the contact email lis
                 in the Information, location, components, and start menu screens.
             </li>
             <li>
-                <strong>
                 Ensure “Use the nano editor by default” is selected and click on “Next”.
-                </strong>
             </li>
             {% comment %} Adjusting your PATH environment {% endcomment %}
             <li>
@@ -448,9 +446,7 @@ If even this does not help, please get in touch with us at the contact email lis
             </li>
             {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
             <li>
-              <strong>
                 Ensure "Use Windows' default console window" is selected and click on "Next".
-              </strong>
             </li>
             {% comment %} Configuring experimental performance tweaks {% endcomment %}
              <li>
