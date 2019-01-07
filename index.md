@@ -10,8 +10,8 @@ humandate: "Feb. 9-10, 2019"    # human-readable dates for the workshop (e.g., "
 humantime: "8:30-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-02-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-02-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["t.b.d."] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["t.b.d."]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["t.b.a."] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["t.b.a."]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  https://pad.carpentries.org/2019-02-09-Tucson           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -430,31 +430,31 @@ If even this does not help, please get in touch with us at the contact email lis
             </li>
             <li>
                 <strong>
-                Select “Use the nano editor by default” and click on “Next”.
+                Ensure “Use the nano editor by default” is selected and click on “Next”.
                 </strong>
             </li>
             {% comment %} Adjusting your PATH environment {% endcomment %}
             <li>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
-                If you forgot to do this programs that you need for the workshop will not work properly.
+                Ensure "Git from the command line and also from 3rd-party software" is selected and click on "Next".
+                If you forget to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
             </li>
             {% comment %} Choosing the SSH executable {% endcomment %}
-                <li>Keep "Use the OpenSSL Library" selected and click on "Next".
+                <li>Ensure "Use the OpenSSL Library" is selected and click on "Next".
             </li>
             {% comment %} Configuring the line ending conversions {% endcomment %}
             <li>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+                Ensure "Checkout Windows-style, commit Unix-style line endings" is selected and click on "Next".
             </li>
             {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
             <li>
               <strong>
-                Select "Use Windows' default console window" and click on "Next".
+                Ensure "Use Windows' default console window" is selected and click on "Next".
               </strong>
             </li>
             {% comment %} Configuring experimental performance tweaks {% endcomment %}
              <li>
-                 Keep "Enable file system caching" and "Enable Git Credential Manager" selected and click on "Next". 
+                 Ensure "Enable file system caching" and "Enable Git Credential Manager" is selected and click on "Next". 
             </li>
             <li>Click on "Install".</li>
             {% comment %} Installing {% endcomment %}
