@@ -53,7 +53,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <a href="http://www.tucsonrodeo.com/" target="blank">Rodeo Week</a> in Tucson, AZ.</h3>
 <h3>Come for the rodeo, stay to wrangle some data!</h3></strong></center><br>
 </p>
-<p><h4><center><strong>Apply for the workshop at <a href="https://goo.gl/59D8tH" target='blank'>https://goo.gl/59D8tH</a>.</strong></center></h4><br> </p>
+<p><h4><center><strong>Apply for the workshop at <a href="https://goo.gl/PA9SSp" target='blank'>https://goo.gl/PA9SSp</a>.</strong></center></h4><br> </p>
 
 {% comment %}
   INTRODUCTION
