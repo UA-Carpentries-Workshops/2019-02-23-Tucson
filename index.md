@@ -219,7 +219,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Saturday February 9</h3>
+    <h3>Saturday February 23</h3>
     <table class="table table-striped">
       <tr> <td>08:30</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Access and navigate the command line / Bash Shell</a></td> </tr>
       <tr> <td>10:30</td> <td>Break</td> </tr>
@@ -232,7 +232,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Sunday February 10</h3>
+    <h3>Sunday February 24</h3>
     <table class="table table-striped">
       <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Analyze scientific data with Python </a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
       <tr> <td>10:30</td>  <td>Break</td> </tr>
