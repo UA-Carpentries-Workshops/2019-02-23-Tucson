@@ -49,7 +49,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h2 id="general">General Information</h2>
 
 <p>
-<br><center><strong><h3>ThisThis workshop is taking place during the annual
+<br><center><strong><h3>This workshop is taking place during the annual
 <a href="http://www.tucsonrodeo.com/" target="blank">Rodeo Week</a> in Tucson, AZ.</h3>
 <h3>Come for the rodeo, stay to wrangle some data!</h3></strong></center><br>
 </p>
