@@ -10,8 +10,8 @@ humandate: "Feb. 23-24, 2019"    # human-readable dates for the workshop (e.g., 
 humantime: "8:30-17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-02-23      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-02-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Phillip Benoit", "Upendra Devisetty", "Dawson Fairbanks", "Chun Ly", "Susan Miller", "Kristina Riemer"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Jiali Han", "Matt Miller", "Noah Nelson", "Peter Ore", "Cristian Palacios", "Austen Stewart", "Travis Struck", "Derrick Yoo"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Phillip Benoit", "Upendra Devisetty", "Dawson Fairbanks", "Blake Joyce", "Chun Ly", "Susan Miller", "Kristina Riemer"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Jiali Han", "Matt Miller", "Noah Nelson", "Cristian Palacios", "Austen Stewart", "Travis Struck", "Derrick Yoo"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2019-02-23-Tucson # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -227,7 +227,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <tr> <td>12:00</td> <td>Break</td> </tr>
       <tr> <td>13:00</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks with shell scripts</a></td> </tr>
       <tr> <td>14:45</td> <td>Break</td> </tr>
-      <tr> <td>15:00</td> <td><a href="http://swcarpentry.github.io/git-novice/" target="_blank">Share data and scripts/programs with git/GitHub</a></td> </tr>
+      <tr> <td>15:00</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks with shell scripts, cont.</a></td> </tr>
       <tr> <td>17:00</td> <td>End of Day</td> </tr>
     </table>
   </div>
@@ -264,12 +264,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use the collaborative document at <a href="{{page.collaborative_notes}}">{{page.collaborative_notes}}</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use the collaborative document at <a href="{{page.collaborative_notes}}">{{page.collaborative_notes}}</a> for chatting, taking notes, and sharing URLs and bits of code and jokes.
 </p>
 {% endif %}
 
 <hr/>
-
+<!--
 {% comment %}
   SYLLABUS
 
@@ -296,6 +296,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
+-->
 
 <hr/>
 
