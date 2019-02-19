@@ -264,7 +264,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use the collaborative document at <a href="{{page.collaborative_notes}}">{{page.collaborative_notes}}</a> for chatting, taking notes, and sharing URLs and bits of code etc.
+  We will use the collaborative document at <a href="{{page.collaborative_notes}}">{{page.collaborative_notes}}</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
@@ -343,7 +343,33 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </ul>
   </div>
 </div>
-  
+
+<div class="row">
+<div class="col-md-6">
+    <h3 id="syllabus-python">Analyse scientific data with Python</h3>
+    <ul>
+      <li>Use libraries</li>
+      <li>Work with arrays</li>
+      <li>Read and plot data</li>
+      <li>Create and use functions</li>
+      <li>Use loops and conditionals</li>
+      <li>Use Python from the command line</li>
+      <li>Defensive programming</li>
+    </ul>
+	  <u>Resources:</u>
+	  <ul>
+		  <li><a href="{{site.swc_pages}}/python-novice-gapminder">Python Lessons</a></li>
+		  <li><a href="{{site.swc_pages}}/python-novice-gapminder/reference/">Python Quick Reference</a></li>
+                  <li><a href="https://www.codecademy.com/learn/python" target="_blank">Codecademy: Interactive Python practice lessons</a></li>
+		  <li><a href="http://rosalind.info/problems/list-view/?location=python-village" target="_blank">Rosalind Python Bioinformatics Practice</a></li>
+		  <li><a href="https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook#gs.mz7KeNQ" target="_blank">Jupyter Notebook tutorial</a></li>
+		  <li><a href="https://plot.ly/python/" target="_blank">Interactive plotting with Plotly (available for R and for Python)</a></li>
+
+
+    </ul>
+  </div>
+</div>
+
 <p>Syllabus subject to change if necessary.</p>
 
 
