@@ -264,7 +264,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use the collaborative document at <a href="{{page.collaborative_notes}}">{{page.collaborative_notes}}</a> for chatting, taking notes, and sharing URLs and bits of code and jokes.
+  We will use the collaborative document at <a href="{{page.collaborative_notes}}">{{page.collaborative_notes}}</a> for chatting, taking notes, and sharing URLs and bits of code and jolts.
 </p>
 {% endif %}
 
@@ -288,7 +288,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   'tools/check' as well.
 {% endcomment %}
 <!-- <h2 id="syllabus">Syllabus</h2> -->
-
+<!--
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
