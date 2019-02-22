@@ -221,9 +221,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="col-md-6">
     <h3>Saturday February 23</h3>
     <table class="table table-striped">
-      <tr> <td>08:30</td> <td><a href="https://github.com/UA-Carpentries-Workshops/2019-02-23-WorkshopResources/tree/master/shell-lessons" target="_blank">Access and navigate the command line / Bash Shell</a></td> </tr>
+      <tr> <td>08:30</td> <td><a href="https://github.com/UA-Carpentries-Workshops/2019-02-23-WorkshopResources/blob/master/shell-lessons/1_intro-to-shell.md" target="_blank">Access and navigate the command line / Bash Shell</a></td> </tr>
       <tr> <td>10:30</td> <td>Break</td> </tr>
-      <tr> <td>10:45</td> <td> <a href="https://github.com/UA-Carpentries-Workshops/2019-02-23-WorkshopResources/tree/master/shell-lessons" target="_blank">Manage data with git/GitHub</a></td> </tr>
+      <tr> <td>10:45</td> <td> <a href="https://github.com/UA-Carpentries-Workshops/Goat_Path_Git_Lesson" target="_blank">Manage data with git/GitHub</a></td> </tr>
       <tr> <td>12:00</td> <td>Break</td> </tr>
       <tr> <td>13:00</td> <td><a href="https://github.com/UA-Carpentries-Workshops/2019-02-23-WorkshopResources/blob/master/shell-lessons/3_scripting_intro.md" target="_blank">Automate tasks with shell scripts</a></td> </tr>
       <tr> <td>14:45</td> <td>Break</td> </tr>
